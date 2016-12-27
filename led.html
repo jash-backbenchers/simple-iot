@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple iot</title>
+	<script type="text/javascript">
+		var http = new XMLHttpRequest();
+		function ledon() {
+			var url = "http://192.168.211.104:5000/ledon";
+			http.open("POST", url, true);
+			http.send();
+		}
+		function ledoff() {
+			var url = "http://192.168.211.104:5000/ledoff";
+			http.open("POST", url, true);
+			http.send();
+		}
+	</script>
+</head>
+<body>
+	<button onclick="ledon()">Ledon</button>
+	<button onclick="ledoff()">Ledoff</button>
+</body>
+</html>
