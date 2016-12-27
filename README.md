@@ -12,7 +12,7 @@ here i have used 2 routes.and i havnt posted any data to server.this code is not
 3.note down the ip address on which the server is running</br>
 4.change the ip address in the led.html file to the address uptained in step 4</br>
 5.connect led to 11pin of pi</br>
-6.run led.html and play led :p</br>
+6.run led.html and play with led :p</br>
 
 <h2>your next development should include</h2>
 1.use only one route </br>
